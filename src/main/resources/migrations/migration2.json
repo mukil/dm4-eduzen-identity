@@ -17,64 +17,6 @@
             ]
         },
         {
-            "value": "Contact Label",
-            "uri": "org.deepamehta.identity.contact_label",
-            "data_type_uri": "dm4.core.text",
-            "index_mode_uris": ["dm4.core.fulltext"],
-            "view_config_topics": [
-                {
-                    "type_uri": "dm4.webclient.view_config",
-                    "composite": {
-                        "dm4.webclient.show_in_create_menu": false,
-                        "dm4.webclient.searchable_as_unit": false,
-                        "dm4.webclient.input_field_rows": 1
-                    }
-                }
-            ]
-        },
-        {
-            "value": "Contact",
-            "uri": "org.deepamehta.identity.contact_entry",
-            "data_type_uri": "dm4.core.text",
-            "index_mode_uris": ["dm4.core.fulltext"],
-            "view_config_topics": [
-                {
-                    "type_uri": "dm4.webclient.view_config",
-                    "composite": {
-                        "dm4.webclient.show_in_create_menu": false,
-                        "dm4.webclient.searchable_as_unit": false,
-                        "dm4.webclient.input_field_rows": 1
-                    }
-                }
-            ]
-        },
-        {
-            "value": "Contact Info",
-            "uri": "org.deepamehta.identity.contact",
-            "data_type_uri": "dm4.core.composite",
-            "assoc_defs": [
-                {
-                    "child_type_uri":           "org.deepamehta.identity.contact_label",
-                    "child_cardinality_uri":    "dm4.core.one",
-                    "parent_cardinality_uri":   "dm4.core.one",
-                    "assoc_type_uri":           "dm4.core.aggregation_def"
-                },
-                {
-                    "child_type_uri":           "org.deepamehta.identity.contact_entry",
-                    "child_cardinality_uri":    "dm4.core.one",
-                    "assoc_type_uri":           "dm4.core.composition_def"
-                },
-            ], "view_config_topics": [
-                {
-                    "type_uri": "dm4.webclient.view_config",
-                    "composite": {
-                        "dm4.webclient.show_in_create_menu": false,
-                        "dm4.webclient.searchable_as_unit": false
-                    }
-                }
-            ]
-        },
-        {
             "value": "Infos",
             "uri": "org.deepamehta.identity.infos",
             "data_type_uri": "dm4.core.html",
