@@ -5,10 +5,14 @@ This plugin introduces a model to realize user profiles with a DeepaMehta "User 
 
 # Plugins History
 
+1.1.2e, Nov 12, 2013
+- EducationZEN-User Profile Model
+- Compatible with DeepaMehta 4.1.2
+
 1.0.0, Sep 16, 2013
 
 - Plugin Setup, Introducing Migrations
-- Compatible with 
+- Compatible with DeepaMehta 4.1.1-SNAPSHOT
 
 Author: Malte Reißig
 

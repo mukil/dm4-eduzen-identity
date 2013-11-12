@@ -17,9 +17,9 @@ public class Migration1 extends Migration {
     @Override
     public void run() {
 
-        TopicType account = dms.getTopicType(USER_ACCOUNT_TYPE_URI, null);
+        TopicType account = dms.getTopicType(USER_ACCOUNT_TYPE_URI);
 
-		// 3) If not already done, enrich the "User Account"-Type about a "Person"-Type
+        // 3) If not already done, enrich the "User Account"-Type about a "Person"-Type
         Collection<AssociationDefinition> childTypes = account.getAssocDefs();
         boolean hasPersonAsChild = false;
         for (AssociationDefinition child : childTypes) {

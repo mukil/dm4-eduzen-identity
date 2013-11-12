@@ -17,7 +17,7 @@ public class Migration3 extends Migration {
     @Override
     public void run() {
 
-        TopicType account = dms.getTopicType(USER_ACCOUNT_TYPE_URI, null);
+        TopicType account = dms.getTopicType(USER_ACCOUNT_TYPE_URI);
         logger.info("Identity Migration3 => Enriching \"User Account\"-Type about \"Contact\", \"Info\" and "
                 + "\"Display Name\"-Type");
         account.addAssocDef(new AssociationDefinitionModel("dm4.core.composition_def", USER_ACCOUNT_TYPE_URI,
