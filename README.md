@@ -5,6 +5,9 @@ This plugin introduces a model to realize user profiles with a DeepaMehta "User 
 
 # Plugins History
 
+1.1.3-SNAPSHOT, Dec 09, 2013
+- Compatible with DM 4.1.3-SNAPSHOT
+
 1.1.2, Nov 12, 2013
 - Slim Model
 - Compatible with DeepaMehta 4.1.2
