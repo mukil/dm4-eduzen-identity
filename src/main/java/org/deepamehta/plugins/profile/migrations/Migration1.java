@@ -1,4 +1,4 @@
-package org.deepamehta.plugins.identity.migrations;
+package org.deepamehta.plugins.profile.migrations;
 
 import de.deepamehta.core.AssociationDefinition;
 import de.deepamehta.core.TopicType;
@@ -26,11 +26,11 @@ public class Migration1 extends Migration {
             if (child.getChildTypeUri().equals(MAILBOX_TYPE_URI)) hasPersonAsChild = true;
         }
         if (!hasPersonAsChild) {
-            logger.info("Running Identity Migration1 => Enriching \"User Account\"-Type about \"Mailbox\"-Type");
+            logger.info("Running Profile Migration1 => Enriching \"User Account\"-Type about \"Mailbox\"-Type");
             account.addAssocDef(new AssociationDefinitionModel("dm4.core.aggregation_def", USER_ACCOUNT_TYPE_URI,
                 MAILBOX_TYPE_URI, "dm4.core.one", "dm4.core.one"));
         } else {
-            logger.info("NOT Running Identity Migration1 => Enriching \"User Account\"-Type about \"Mailbox\"-Type - "
+            logger.info("NOT Running Profile Migration1 => Enriching \"User Account\"-Type about \"Mailbox\"-Type - "
                     + "Already done!");
         }
 

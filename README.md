@@ -1,9 +1,16 @@
 
-# DeepaMehta User Profiles Plugin
+# DeepaMehta 4 eduZEN Profile Plugin
 
-This plugin introduces a model to realize user profiles with a DeepaMehta "User Account". It adds "Display Name" and "Info" (HTML) to each DeepaMehta "User Account". If an "E-Mail"-Adress is not already part of a "User Account" type definition (mode), this plugin will do so in Migration1.
+This plugin introduces a model to realize user profiles with a DeepaMehta "User Account". 
+
+It adds a "Display Name" and "Info" (HTML) topic to the DeepaMehta "User Account" type definition.
+
+If an "E-Mail"-Adress is not already part of that, this plugin will introduce this in Migration1.
 
 # Plugins History
+
+1.1.4-SNAPSHOT, Mar 01, 2014
+- Compatible with DM 4.2
 
 1.1.3-SNAPSHOT, Dec 09, 2013
 - Compatible with DM 4.1.3-SNAPSHOT
