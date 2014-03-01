@@ -1,7 +1,7 @@
 
-# DeepaMehta 4 eduZEN Profile Plugin
+# org.deepamehta Profile Module
 
-This plugin introduces a model to realize user profiles with a DeepaMehta "User Account". 
+This plugin consists of a migration (type definition) to realize user profiles with a DeepaMehta "User Account". 
 
 It adds a "Display Name" and "Info" (HTML) topic to the DeepaMehta "User Account" type definition.
 
