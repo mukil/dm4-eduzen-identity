@@ -9,7 +9,7 @@ If an "E-Mail"-Adress is not already part of that, this plugin will introduce th
 
 # Plugins History
 
-1.1.4-SNAPSHOT, Mar 01, 2014
+1.1.4, Mar 08, 2014
 - Compatible with DM 4.2
 
 1.1.3-SNAPSHOT, Dec 09, 2013
