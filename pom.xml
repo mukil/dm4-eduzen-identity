@@ -6,7 +6,7 @@
     <name>org.deepamehta eduZEN Identity</name>
     <groupId>org.deepamehta</groupId>
     <artifactId>dm42-eduzen-identity</artifactId>
-    <version>1.1.4</version>
+    <version>1.1.5-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
     <parent>
@@ -45,7 +45,7 @@
                 <configuration>
                     <instructions>
                         <Bundle-SymbolicName>
-                            org.deepamehta.eduzen-identity
+                            org.deepamehta.identity
                         </Bundle-SymbolicName>
                     </instructions>
                 </configuration>
