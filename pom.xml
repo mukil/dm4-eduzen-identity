@@ -3,16 +3,16 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <name>org.deepamehta eduZEN Identity</name>
+    <name>DeepaMehta 4 eduZEN Identity</name>
     <groupId>org.deepamehta</groupId>
-    <artifactId>dm42-eduzen-identity</artifactId>
-    <version>1.1.5-SNAPSHOT</version>
+    <artifactId>dm44-eduzen-identity</artifactId>
+    <version>1.1.5</version>
     <packaging>bundle</packaging>
 
     <parent>
         <groupId>de.deepamehta</groupId>
         <artifactId>deepamehta-plugin-parent</artifactId>
-        <version>4.2</version>
+        <version>4.4</version>
     </parent>
 
     <dependencies>
@@ -20,19 +20,19 @@
         <dependency>
             <groupId>de.deepamehta</groupId>
             <artifactId>deepamehta-workspaces</artifactId>
-            <version>4.2</version>
+            <version>4.4</version>
         </dependency>
 
         <dependency>                                 <!-- depend on the DeepaMehta core module.     -->
             <groupId>de.deepamehta</groupId>         <!-- Copy this declaration as is.              -->
             <artifactId>deepamehta-contacts</artifactId> <!-- Just update the version number, if a  -->
-            <version>4.2</version>                   <!-- newer version of DeepaMehta is available. -->
+            <version>4.4</version>                   <!-- newer version of DeepaMehta is available. -->
         </dependency>                                <!-- If your plugin has no Java code at all,   -->
 
         <dependency>                                 <!-- depend on the DeepaMehta core module.     -->
             <groupId>de.deepamehta</groupId>         <!-- Copy this declaration as is.              -->
             <artifactId>deepamehta-accesscontrol</artifactId> <!-- Just update the version number, i-->
-            <version>4.2</version>                   <!-- newer version of DeepaMehta is available. -->
+            <version>4.4</version>                   <!-- newer version of DeepaMehta is available. -->
         </dependency>                                <!-- If your plugin has no Java code at all,   -->
 
     </dependencies>

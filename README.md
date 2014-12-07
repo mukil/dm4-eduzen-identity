@@ -1,23 +1,27 @@
 
-# eduZEN Identity Module
+# DeepaMehta 4 eduZEN Identity Module
 
-A DeepaMehta 4 plugin consisting of a migration which extends "User Account"-Topics about a "Display Name" for each user and in a way that one can realize simple user profile pages.
+This plugin introduces an application model to realize user profile pages in your application with a profile picture and a display name which is different from the username.
 
-The DeepaMehta 4 Standard model of a "User Account" is enriched by "Display Name" (Text), "Info" (HTML) and an "E-Mail Address", while the "E-Mail Address"-Type becomes just part of a "User Account" if it isn't already.
+It does so through extending the DeepaMehta 4 Core _User Account_ about a
 
-Furthermore this module introduces a DeepaMehta "Profile Picture" AssociationType.
+* _Display Name_ (Text) child, an
+* _Info_ (HTML) child and an
+* _E-Mail Address_ (assigned from the dm4-contacts module).
+
+Furthermore this module introduces a DeepaMehta _Profile Picture_ AssociationType which can be used in relaton to a _File_ topic.
 
 ## Download
 
 You can find bundles for installation under each version number at http://download.deepamehta.de/nightly/.
 
-Filename of the bundle to download is ''dm42-eduzen-identity-X.Y.Z.jar'' as of version 1.1.4, while the bundle filename for older versions is ''identity.X.Y.Z.jar''.
+Filename of the bundle to download is ''dm44-eduzen-identity-X.Y.Z.jar'' as of version 1.1.5.
 
 # Version History
 
-**1.1.5**, UPCOMING
+**1.1.5**, Dec 08, 2014
 - Updated README
-- Compatible with DM 4.3
+- Compatible with DM 4.4
 
 **1.1.4**, Mar 08, 2014
 - new bundle name: "dm42-eduzen-identity-X.Y.Z.jar"
