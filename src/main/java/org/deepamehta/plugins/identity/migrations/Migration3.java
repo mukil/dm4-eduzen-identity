@@ -12,7 +12,7 @@ public class Migration3 extends Migration {
     private String USER_ACCOUNT_TYPE_URI = "dm4.accesscontrol.user_account";
     private String DISPLAY_NAME_TYPE_URI = "org.deepamehta.identity.display_name";
     private String INFO_TYPE_URI = "org.deepamehta.identity.infos";
-
+    
     @Override
     public void run() {
 
@@ -23,7 +23,7 @@ public class Migration3 extends Migration {
             DISPLAY_NAME_TYPE_URI, "dm4.core.one", "dm4.core.one"));
         account.addAssocDef(new AssociationDefinitionModel("dm4.core.composition_def", USER_ACCOUNT_TYPE_URI,
             INFO_TYPE_URI, "dm4.core.one", "dm4.core.one"));
-
+        
     }
 
 }
