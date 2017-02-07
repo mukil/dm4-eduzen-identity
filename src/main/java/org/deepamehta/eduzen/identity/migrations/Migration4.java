@@ -7,7 +7,6 @@ import de.deepamehta.core.service.Inject;
 import de.deepamehta.core.service.Migration;
 import de.deepamehta.workspaces.WorkspacesService;
 import java.util.logging.Logger;
-import static org.deepamehta.eduzen.identity.EduzenIdentityPlugin.DEFAULT_WORKSPACE;
 import static org.deepamehta.eduzen.identity.EduzenIdentityPlugin.DISPLAY_NAME_TYPE_URI;
 import static org.deepamehta.eduzen.identity.EduzenIdentityPlugin.INFO_TYPE_URI;
 import static org.deepamehta.eduzen.identity.EduzenIdentityPlugin.PROFILE_PICTURE_EDGE_TYPE_URI;
@@ -30,7 +29,7 @@ public class Migration4 extends Migration {
 
     public void assignToDeepaMehtaWorkspace(Topic topic) {
         if (topic == null) return;
-        Topic standardWorkspace = dm4.getTopicByUri(DEFAULT_WORKSPACE);
+        Topic standardWorkspace = dm4.getTopicByUri(WorkspacesService.DEEPAMEHTA_WORKSPACE_URI);
         workspaces.assignToWorkspace(topic, standardWorkspace.getId());
     }
 
