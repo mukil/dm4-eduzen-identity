@@ -19,13 +19,14 @@ Filename of the bundle to download is ''dm44-eduzen-identity-X.Y.Z.jar'' as of v
 
 # Version History
 
-**1.1.7**, Feb 07, 2017
+**1.2**, Feb 12, 2017
 
-- Compatible with DeepaMehta 4.8
+- Adapted to be compatible with DeepaMehta 4.8
+- Added Migration4 assiging types to "DeepaMehta" workspace
 
-**1.1.6**, Unknown
+**1.1.6**, Dec 08, 2014
 
-- Maintenance release...
+- Maintenance release
 
 **1.1.5**, Dec 08, 2014
 - Updated README

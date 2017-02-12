@@ -8,7 +8,7 @@
     <name>DeepaMehta 4 eduZEN Identity</name>
     <groupId>org.deepamehta</groupId>
     <artifactId>dm48-eduzen-identity</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     <packaging>bundle</packaging>
 
     <parent>
